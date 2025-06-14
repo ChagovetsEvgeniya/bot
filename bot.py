@@ -3,6 +3,8 @@ import datetime
 import random
 from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
+from keep_alive import keep_alive
+keep_alive()
 
 # Налаштування логування
 logging.basicConfig(
